@@ -9,7 +9,7 @@ libraryDependencies ++= Seq(
 	"org.mortbay.jetty" % "jetty" % "6.1.22" % "jetty,test",
 	"ch.qos.logback" % "logback-classic" % "0.9.26",
 	"junit" % "junit" % "4.5" % "test",
-  // "org.scala-tools.testing" %% "specs" % "2.8.1" % "test",
+  	 "org.scala-tools.testing" %% "scalacheck" % "1.9" % "test",
 	"com.h2database" % "h2" % "1.2.138"
 )
 
