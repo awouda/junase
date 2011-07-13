@@ -14,3 +14,4 @@ libraryDependencies ++= Seq(
 )
 
 unmanagedClasspath in Test <+= (scalaInstance) map { (scala) => Attributed.blank(scala.compilerJar) }
+
