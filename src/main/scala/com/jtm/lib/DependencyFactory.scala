@@ -1,5 +1,5 @@
-package code
-package lib
+
+package com.jtm.lib
 
 import net.liftweb._
 import http._
